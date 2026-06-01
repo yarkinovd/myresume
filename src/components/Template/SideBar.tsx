@@ -30,7 +30,7 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I'm a frontend developer and mentor. I specialize in building with React, TypeScript, and Next.js, and have served as the lead Frontend mentor at an IT education center, where I taught over 200 students. I also have experience as an SMM specialist and mobilographer, creating content and managing digital presence for multiple businesses.
+          Hi, I&apos;m a developer transitioning into Flutter and mobile development. I previously worked as a Frontend developer and mentor (React, TypeScript, Next.js), taught over 200 students, and published my first Flutter app on Google Play. Currently studying Software Engineering at PDP University.
         </p>
         <ul className="actions">
           <li>

@@ -73,9 +73,9 @@ const skills: Skill[] = [
     category: ['Databases'],
   },
   {
-    title: 'FireBase',
-    competency: 2,
-    category: ['Databases'],
+    title: 'GetX / Provider',
+    competency: 3,
+    category: ['Framework & Library', 'Mobile'],
   },
   // Web Development
   {
@@ -91,7 +91,17 @@ const skills: Skill[] = [
   {
     title: 'Flutter',
     competency: 4,
-    category: ['Framework & Library'],
+    category: ['Framework & Library', 'Mobile'],
+  },
+  {
+    title: 'Android (Play Store)',
+    competency: 3,
+    category: ['Mobile'],
+  },
+  {
+    title: 'Firebase',
+    competency: 3,
+    category: ['Databases', 'Mobile'],
   },
   {
     title: 'FastAPI',

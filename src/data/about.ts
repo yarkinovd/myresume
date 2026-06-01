@@ -1,10 +1,12 @@
 export const aboutMarkdown = `# Intro
 
-I’m a frontend developer and mentor passionate about building for the web and helping others grow. I dove into React, TypeScript, and Next.js in early 2023 and quickly expanded into SMM and mobilography, blending technical and creative work.
+I’m a developer and mentor who started with frontend (React, TypeScript, Next.js) and has since shifted focus to Flutter and mobile development. I’m currently studying Software Engineering at PDP University, where Flutter is my primary stack.
 
-From 2023 to 2024, I taught over 200 students as the main Frontend mentor at an IT center while also creating content for various businesses. In 2024, despite not planning to attend university, I prepared intensively for two months, earned a 6.0 on IELTS, scored 127.3 on the national exam, and won a 100% scholarship to PDP University.
+From 2023 to 2024, I taught over 200 students as the main Frontend mentor at an IT center while also working as an SMM specialist and mobilographer. In 2024, I earned a 6.0 on IELTS, scored 127.3 on the national exam, and won a 100% scholarship to PDP University.
 
-Every milestone — from my experience marks a chapter of growth, discipline, and ambition.
+In 2025, I published my first Flutter app — a cultural platform dedicated to female creators across the Turkic-speaking world — on Google Play Store.
+
+I’m still learning and growing as a Flutter developer. Every project is a step forward.
 If you’d like to collaborate or just connect, feel free to reach out.
 
 # Some History
@@ -21,8 +23,9 @@ If you’d like to collaborate or just connect, feel free to reach out.
 - A month later, I finished my Mathematics preparation (14.06.2024 – 14.07.2024).
 - I scored 127.3 points on the national university entrance exam.
 - Then I bought an iPhone 15 Pro (01.08.2024). I don’t always reward myself — but when I do, it’s with Apple products.
-- On August 30, 2024, I won a 100% scholarship to PDP University and officially became a first-year student.
+- On August 30, 2024, I won a 100% scholarship to PDP University and officially became a first-year student. My major: Software Engineering with a focus on Flutter.
 - And yes… I couldn’t stop there. I finally bought a MacBook Pro 2021 (M1 Pro, 16GB RAM / 512GB SSD, 14-inch) (20.10.2024). It felt like leveling up in real life.
+- In 2025, I built and published my first Flutter app — [Anthology](https://play.google.com/store/apps/details?id=uz.doniyorbek.ilova.anthology), a cultural platform for female creators across the Turkic-speaking world. It’s live on Google Play Store.
 
 Ask me in person for other stories that I'm afraid to share with the internet.
 

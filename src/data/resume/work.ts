@@ -10,6 +10,20 @@ export interface Position {
 
 const work: Position[] = [
   {
+    name: 'Anthology — Turkic World Female Creators Platform',
+    position: 'Flutter Developer (Personal Project)',
+    url: 'https://play.google.com/store/apps/details?id=uz.doniyorbek.ilova.anthology',
+    startDate: '2025-01-01',
+    summary: `Designed and built a Flutter mobile application that serves as a digital platform dedicated to female creators from Turkic-speaking peoples. The app provides a structured space for exploring poetry, literature, research, and cultural heritage across the Turkic world. Published on Google Play Store as my first Flutter app.`,
+    highlights: [
+      'Built a full-featured cross-platform mobile app with Flutter and Dart, published to Google Play Store.',
+      'Implemented multi-section architecture: News, Research, Library, Authors, Audio, Video, and Education.',
+      'Integrated Firebase for data storage and real-time content management.',
+      'Designed and built a clean, accessible UI from scratch with a focus on readability and cultural aesthetics.',
+      'Handled end-to-end development: architecture, UI design, state management, and Play Store deployment.',
+    ],
+  },
+  {
     name: 'Meta IT School',
     position: 'Frontend mentor',
     url: 'https://instagram.com/metaitschool',
