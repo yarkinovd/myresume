@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yarkinovweb/myresume.git"
+    "url": "https://github.com/yarkinovd/myresume.git"
   },
   "engines": {
     "node": ">=20.x"

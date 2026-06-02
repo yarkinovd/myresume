@@ -18,7 +18,7 @@ const Stats: React.FC = () => {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          'https://api.github.com/repos/yarkinovweb/myresume',
+          'https://api.github.com/repos/yarkinovd/myresume',
         );
         const resData: GitHubRepoData = await res.json();
 

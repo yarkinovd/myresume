@@ -13,7 +13,7 @@ export interface ContactItem {
 
 const data: ContactItem[] = [
   {
-    link: 'https://github.com/yarkinovweb',
+    link: 'https://github.com/yarkinovd',
     label: 'Github',
     icon: faGithub,
   },
