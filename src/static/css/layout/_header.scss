@@ -160,6 +160,95 @@ body {
   }
 }
 
+/* ─── Header Controls ─────────────────────────────────────────── */
+.header-controls {
+  @include vendor('display', 'flex');
+  @include vendor('align-items', 'center');
+  gap: 0.9em;
+  padding: 0 1.2em;
+  height: inherit;
+  flex-shrink: 0;
+  // ── Segmented Language Switcher ───────────────────────────────
+  .lang-switcher {
+    @include vendor('display', 'flex');
+    background: _palette(bg-alt);
+    border: solid 1px _palette(border);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+
+  .lang-seg-btn {
+    @include vendor('display', 'flex');
+    @include vendor('align-items', 'center');
+    gap: 0.4em;
+    background: transparent;
+    border: none;
+    border-right: solid 1px _palette(border);
+    cursor: pointer;
+    padding: 0 1em;
+    height: 2.4em;
+    @include vendor('transition', 'background-color 0.22s ease');
+
+    &:last-child {
+      border-right: none;
+    }
+
+    .seg-flag {
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      flex-shrink: 0;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+    }
+
+    .seg-label {
+      font-family: _font(family-heading);
+      font-size: 0.68em;
+      font-weight: _font(weight-heading-bold);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: _palette(fg-light);
+      @include vendor('transition', 'color 0.22s ease');
+      line-height: 1;
+    }
+
+    &:hover:not(.active) {
+      background: rgba(0, 0, 0, 0.04);
+
+      .seg-label {
+        color: _palette(fg-bold);
+      }
+    }
+
+    &:active:not(.active) {
+      background: rgba(0, 0, 0, 0.07);
+    }
+
+    &.active {
+      background: _palette(accent);
+
+      .seg-label {
+        color: #ffffff;
+      }
+
+      .seg-flag {
+        box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.4);
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+    border-left: none;
+    padding: 0 0.75em 0 0;
+  }
+
+  @include breakpoint(small) {
+    display: none;
+  }
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   display: none;

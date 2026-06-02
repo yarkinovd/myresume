@@ -5,6 +5,7 @@ import React from 'react';
 import GoogleAnalytics from '@/components/Template/GoogleAnalytics';
 import Navigation from '@/components/Template/Navigation';
 import '@/static/css/main.scss';
+import { Providers } from './providers';
 
 const sourceSans = Source_Sans_3({
   weight: ['400', '700'],
@@ -22,35 +23,27 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Doniyorbek Yarkinov ",
-    template: "%s | Yarkinov",
+    default: 'Doniyorbek Yarkinov ',
+    template: '%s | Yarkinov',
   },
-  description:
-    'Frontend developer and mentor',
-  keywords: [
-    "Doniyorbek Yarkinov",
-    'frontend developer',
-    'frontend mentor',
-    'student',
-    'startup founder'
-  ],
-  authors: [{ name: "Doniyorbek Yarkinov" }],
-  creator: "Doniyorbek Yarkinov",
+  description: 'Frontend developer and mentor',
+  keywords: ['Doniyorbek Yarkinov', 'frontend developer', 'frontend mentor', 'student', 'startup founder'],
+  authors: [{ name: 'Doniyorbek Yarkinov' }],
+  creator: 'Doniyorbek Yarkinov',
   metadataBase: new URL('https://yarkinovd.uz'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://yarkinovd.uz',
-    siteName: "Doniyorbek Yarkinov",
-    title: "Doniyorbek Yarkinov",
-    description:
-      'Frontend developer and mentor',
+    siteName: 'Doniyorbek Yarkinov',
+    title: 'Doniyorbek Yarkinov',
+    description: 'Frontend developer and mentor',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Doniyorbek Yarkinov",
+        alt: 'Doniyorbek Yarkinov',
       },
     ],
   },
@@ -67,18 +60,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${sourceSans.variable} ${raleway.variable}`}>
       <body>
-        <div id="wrapper">
-          <Navigation />
-          {children}
-        </div>
+        <Providers>
+          <div id="wrapper">
+            <Navigation />
+            {children}
+          </div>
+        </Providers>
         <GoogleAnalytics />
       </body>
     </html>

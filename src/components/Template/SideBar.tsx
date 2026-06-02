@@ -5,10 +5,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
 
+import { useLanguage } from '@/context/LanguageContext';
 import ContactIcons from '../Contact/ContactIcons';
 
 const SideBar: React.FC = () => {
   const pathname = usePathname();
+  const { t } = useLanguage();
 
   return (
     <section id="sidebar">
@@ -28,19 +30,17 @@ const SideBar: React.FC = () => {
       </section>
 
       <section className="blurb">
-        <h2>About</h2>
-        <p>
-          Hi, I&apos;m a developer transitioning into Flutter and mobile development. I previously worked as a Frontend developer and mentor (React, TypeScript, Next.js), taught over 200 students, and published my first Flutter app on Google Play. Currently studying Software Engineering at PDP University.
-        </p>
+        <h2>{t.sidebar.aboutHeading}</h2>
+        <p>{t.sidebar.blurb}</p>
         <ul className="actions">
           <li>
             {pathname && !pathname.includes('/resume') ? (
               <Link href="/resume" className="button">
-                Learn More
+                {t.sidebar.learnMore}
               </Link>
             ) : (
               <Link href="/about" className="button">
-                About Me
+                {t.sidebar.aboutMe}
               </Link>
             )}
           </li>

@@ -8,32 +8,18 @@ import degrees from '@/data/resume/degrees';
 import { categories, skills } from '@/data/resume/skills';
 import work from '@/data/resume/work';
 
+import ResumeHeader from '../components/ResumeHeader';
+
 export const metadata: Metadata = {
   title: 'Resume',
-  description:
-    "Doniyorbek Yarkinov's resume",
+  description: "Doniyorbek Yarkinov's resume",
 };
-
-const sections = [
-  { name: 'Education', id: 'education' },
-  { name: 'Experience', id: 'experience' },
-  { name: 'Skills', id: 'skills' },
-];
 
 export default function ResumePage() {
   return (
     <article className="post" id="resume">
       <header>
-        <div className="title">
-          <h2>Resume</h2>
-          <div className="link-container">
-            {sections.map((section) => (
-              <h4 key={section.id}>
-                <a href={`#${section.id}`}>{section.name}</a>
-              </h4>
-            ))}
-          </div>
-        </div>
+        <ResumeHeader />
       </header>
 
       <section id="education" className="education">
@@ -50,7 +36,6 @@ export default function ResumePage() {
         <div className="link-to" />
         <Skills skills={skills} categories={categories} />
       </section>
-      
     </article>
   );
 }

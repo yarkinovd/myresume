@@ -1,0 +1,30 @@
+'use client';
+
+import Link from 'next/link';
+import React from 'react';
+
+import Personal from '@/components/Stats/Personal';
+import Site from '@/components/Stats/Site';
+import { useLanguage } from '@/context/LanguageContext';
+
+import PageWrapper from './PageWrapper';
+
+export default function StatsContent() {
+  const { t } = useLanguage();
+
+  return (
+    <PageWrapper>
+      <article className="post" id="stats">
+        <header>
+          <div className="title">
+            <h2>
+              <Link href="/stats">{t.stats.title}</Link>
+            </h2>
+          </div>
+        </header>
+        <Personal />
+        <Site />
+      </article>
+    </PageWrapper>
+  );
+}

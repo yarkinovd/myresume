@@ -2,6 +2,7 @@
 
 import React, { useReducer } from 'react';
 
+import { useLanguage } from '@/context/LanguageContext';
 import type { Category, Skill } from '@/data/resume/skills';
 
 import CategoryButton from './Skills/CategoryButton';
@@ -19,10 +20,9 @@ type ButtonAction = {
   label: string;
 };
 
-const buttonReducer = (
-  state: ButtonState,
-  action: ButtonAction,
-): ButtonState => {
+const ALL_KEY = 'All';
+
+const buttonReducer = (state: ButtonState, action: ButtonAction): ButtonState => {
   switch (action.type) {
     case 'TOGGLE_CATEGORY': {
       const newButtons = Object.keys(state).reduce(
@@ -32,7 +32,7 @@ const buttonReducer = (
         }),
         {} as ButtonState,
       );
-      newButtons.All = !Object.keys(state).some((key) => newButtons[key]);
+      newButtons[ALL_KEY] = !Object.keys(state).some((key) => newButtons[key]);
       return newButtons;
     }
     default:
@@ -41,8 +41,10 @@ const buttonReducer = (
 };
 
 const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
+  const { t } = useLanguage();
+
   const initialButtons = Object.fromEntries(
-    [['All', false]].concat(categories.map(({ name }) => [name, false])),
+    [[ALL_KEY, false]].concat(categories.map(({ name }) => [name, false])),
   );
 
   const [buttons, dispatch] = useReducer(buttonReducer, initialButtons);
@@ -51,10 +53,16 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
     dispatch({ type: 'TOGGLE_CATEGORY', label });
   };
 
+  const activeCategory = Object.keys(buttons).reduce(
+    (cat, key) => (buttons[key] ? key : cat),
+    ALL_KEY,
+  );
+
   const getButtons = () =>
     Object.keys(buttons).map((key) => (
       <CategoryButton
-        label={key}
+        label={key === ALL_KEY ? t.resume.skillsAll : key}
+        internalKey={key}
         key={key}
         active={buttons}
         handleClick={handleChildClick}
@@ -62,11 +70,6 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
     ));
 
   const getRows = () => {
-    const actCat = Object.keys(buttons).reduce(
-      (cat, key) => (buttons[key] ? key : cat),
-      'All',
-    );
-
     const comparator = (a: Skill, b: Skill) => {
       let ret = 0;
       if (a.competency > b.competency) ret = -1;
@@ -80,17 +83,15 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
 
     return skills
       .sort(comparator)
-      .filter((skill) => actCat === 'All' || skill.category.includes(actCat))
-      .map((skill) => (
-        <SkillBar categories={categories} data={skill} key={skill.title} />
-      ));
+      .filter((skill) => activeCategory === ALL_KEY || skill.category.includes(activeCategory))
+      .map((skill) => <SkillBar categories={categories} data={skill} key={skill.title} />);
   };
 
   return (
     <div className="skills">
       <div className="link-to" id="skills" />
       <div className="title">
-        <h3>Skills</h3>
+        <h3>{t.resume.skills}</h3>
       </div>
       <div className="skill-button-container">{getButtons()}</div>
       <div className="skill-row-container">{getRows()}</div>
