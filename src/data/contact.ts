@@ -28,7 +28,7 @@ const data: ContactItem[] = [
     icon: faLinkedinIn,
   },
   {
-    link: 'https://t.me/flutterdevv',
+    link: 'https://t.me/yarkinovd',
     label: 'Telegram',
     icon: faTelegram,
   },
