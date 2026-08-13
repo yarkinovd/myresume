@@ -13,6 +13,7 @@ interface EducationProps {
 
 const Education: React.FC<EducationProps> = ({ data }) => {
   const { t } = useLanguage();
+  const degreesToRender = t.resume.degrees || data;
 
   return (
     <div className="education">
@@ -20,7 +21,7 @@ const Education: React.FC<EducationProps> = ({ data }) => {
       <div className="title">
         <h3>{t.resume.education}</h3>
       </div>
-      {data.map((degree) => (
+      {degreesToRender.map((degree) => (
         <Degree data={degree} key={degree.school} />
       ))}
     </div>

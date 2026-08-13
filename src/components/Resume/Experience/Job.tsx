@@ -2,6 +2,7 @@ import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 import React from 'react';
 
+import { useLanguage } from '@/context/LanguageContext';
 import type { Position } from '@/data/resume/work';
 
 interface JobProps {
@@ -10,17 +11,18 @@ interface JobProps {
 
 const Job: React.FC<JobProps> = ({ data }) => {
   const { name, position, url, startDate, endDate, summary, highlights } = data;
+  const { t } = useLanguage();
 
   return (
     <article className="jobs-container">
       <header>
         <h4>
-          <a href={url}>{name}</a> - {position}
+          {url ? <a href={url} target="_blank" rel="noopener noreferrer">{name}</a> : name} - {position}
         </h4>
         <p className="daterange">
           {' '}
           {dayjs(startDate).format('MMMM YYYY')} -{' '}
-          {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}
+          {endDate ? dayjs(endDate).format('MMMM YYYY') : t.resume.present}
         </p>
       </header>
       {summary ? (
@@ -47,7 +49,9 @@ const Job: React.FC<JobProps> = ({ data }) => {
       {highlights ? (
         <ul className="points">
           {highlights.map((highlight) => (
-            <li key={highlight}>{highlight}</li>
+            <li key={highlight}>
+              <Markdown>{highlight}</Markdown>
+            </li>
           ))}
         </ul>
       ) : null}

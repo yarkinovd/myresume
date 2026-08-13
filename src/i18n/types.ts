@@ -1,3 +1,6 @@
+import type { Degree } from '@/data/resume/degrees';
+import type { Position } from '@/data/resume/work';
+
 export type Language = 'en' | 'uz' | 'ru';
 
 export interface Translations {
@@ -35,6 +38,8 @@ export interface Translations {
     skills: string;
     skillsAll: string;
     present: string;
+    degrees: Degree[];
+    positions: Position[];
   };
   contact: {
     title: string;
@@ -42,5 +47,13 @@ export interface Translations {
   };
   stats: {
     title: string;
+    personalHeading: string;
+    siteHeading: string;
+    ageLabel: string;
+    locationLabel: string;
+    cityValue: string;
+    starsLabel: string;
+    watchersLabel: string;
+    lastUpdatedLabel: string;
   };
 }

@@ -17,8 +17,6 @@ const nextConfig: NextConfig = {
   turbopack: {
     // Define module resolution rules
     rules: {},
-    // Module resolution extensions
-    resolveExtensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
   },
 
   // Experimental features
