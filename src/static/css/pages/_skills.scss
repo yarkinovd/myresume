@@ -41,19 +41,27 @@
     box-shadow: inset 0 0 0 1px _palette(accent);
   }
 
-  &:focus {
+  &:focus,
+  &:active {
     outline: 0;
-    box-shadow: inset 0 0 0 1px _palette(accent);
+    background: _palette(accent) !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
   }
 }
 
 .skillbutton-active {
-  background: _palette(accent);
-  color: _palette(bg) !important;
+  background: _palette(accent) !important;
+  color: #ffffff !important;
   box-shadow: none !important;
 
-  &:hover {
-    opacity: 0.9;
+  &:hover,
+  &:focus,
+  &:active {
+    background: _palette(accent) !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+    opacity: 0.95;
   }
 }
 

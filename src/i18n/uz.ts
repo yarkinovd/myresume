@@ -29,7 +29,7 @@ const uz: Translations = {
     wordCount: (n) => `taxminan ${n} so'z`,
     content: `# Kirish
 
-PDP Universiteti "Dasturiy injiniring" yo'nalishi talabasi (2024-yilda 100% grant sohibi) va xalqaro BTEC dasturi tinglovchisi. Faoliyatimni Frontend (React, TypeScript, Next.js) texnologiyalaridan boshlab, hozirda asosiy e'tiborimni Flutter va mobil muhandislikka qaratganman. Kuchli yetakchilik va pedagogik tajribaga egaman: 2023–2024-yillarda IT markazda Bosh Frontend o'qituvchisi (Lead Instructor) sifatida 200 dan ortiq talabalarni o'qitganman. Foydalanuvchilarga qulay va yuqori unumdorlikka ega dasturiy yechimlarni yaratish uchun chuqur texnik bilimlarni raqamli marketing (SMM/Mobilografiya, 2023–2024) sohasidagi kreativ tajribam bilan birlashtirgan holda, mobil dasturchi sifatida doimiy o'sib bormoqdaman.
+PDP Universiteti "Dasturiy injiniring" yo'nalishi talabasi (2024-yilda 100% grant sohibi) va Angliyaning xalqaro BTEC dasturi talabasi. Faoliyatimni Frontend (React, TypeScript, Next.js) texnologiyalaridan boshlab, hozirda asosiy e'tiborimni Flutter va mobil muhandislikka qaratganman. Kuchli yetakchilik va pedagogik tajribaga egaman: 2023–2024-yillarda IT markazda Bosh Frontend o'qituvchisi (Lead Instructor) sifatida 200 dan ortiq talabalarni o'qitganman. Foydalanuvchilarga qulay va yuqori unumdorlikka ega dasturiy yechimlarni yaratish uchun chuqur texnik bilimlarni raqamli marketing (SMM/Mobilografiya, 2023–2024) sohasidagi kreativ tajribam bilan birlashtirgan holda, mobil va fullstack dasturchi sifatida doimiy o'sib bormoqdaman.
 
 Har bir loyiha — yangi bosqich. Agar hamkorlik qilmoqchi bo'lsangiz yoki shunchaki bir finjon kofe ustida suhbatlashmoqchi bo'lsangiz, murojaat qilishdan tortinmang!
 
@@ -37,11 +37,11 @@ Har bir loyiha — yangi bosqich. Agar hamkorlik qilmoqchi bo'lsangiz yoki shunc
 
 - Frontend Development ni o'rganishni boshladim-u, veb-saytlar va foydalanuvchi interfeyslarini o'ta moooo'tadil qilib yaratish yoqib qoldi, qisqa qilib aytganda dizaynga moyilligim bor ekan.
 - 2023-yil yanvardan maygacha React.js, TypeScript va Next.js ga shunaqangi o'rgandimki, hatto tushlarimda ham JSX kod yozib chiqardim.
-- Shu orasida kutilmaganda SMM va Mobilografiyani ham o'rganib oldim. Aslida rejamda yo'q edi — shunchaki "qani ko'ray-chi" deb qiziqib ko'rgandim, oxiri bu ijodiy jarayon mening sevimli mashg'ulotimga aylanib ketdi, chunki bir paytlar video montaj ishlari men uchun ushalmas orzudek ko'rinar edida.
+- Orada kutilmaganda SMM va Mobilografiyani ham o'rganib oldim. Aslida rejamda yo'q edi — shunchaki "qani ko'ray-chi" deb qiziqib ko'rgandim, oxiri bu ijodiy jarayon mening sevimli mashg'ulotimga aylanib ketdi, chunki bir paytlar video montaj ishlari men uchun ushalmas orzudek ko'rinar edida.
 - Bir to'liq yil davomida (2023-yil maydan 2024-yil maygacha) IT markazda Bosh Frontend mentor va dasturchi bo'lib ishladim. 200 dan ortiq talabalarni dasturlash olamiga yetakladim — bu haligacha mening eng faxrlanadigan va yuragimga yaqin yutuqlarimdan biri!
 - O'sha bir yil davomida do'konlar, o'quv markazlari, kiyim do'konlari va restoranlar uchun SMM hamda mobilograf bo'lib ham yugurib yurdim. O'ta qiziqarli va har qanday psixologiya kitobidan ham ko'ra insonlarni yaxshiroq tushunishni o'rgatgan davr bo'ldi!
-- Hayotimdagi birinchi katta texnologik "kubogim" — iPhone 14 Pro Max sotib oldim (09.10.2023). O'zimni xuddi dunyoni zabt etganga o'xshab his qilgandim!
-- Universitetga kirish umuman rejamda yo'q edi. O'zimcha: "Faqat kod yozaman, ishlayman va zo'r loyihalar quraman!" deb yurgandim, oilam ham bu qarorimni qo'llagan edi. Lekin... 2024-yil aprelida, 11-sinf tugay deb turganda kutilmaganda "syurpriz"! Oilam birdaniga universitetga kirishim shartligini e'lon qildi. Imtihongacha atigi 2 oy qolgan, men esa shokdaman: "Shuncha vaqtda tayyorlanib bo'ladimi?!" Lekin bahslashib o'tirmay, pedalni polgacha bosdim.
+- Hayotimdagi o'z ishlab topgan pulimga birinchi katta texnologik "kubogim" — iPhone 14 Pro Max sotib oldim (09.10.2023). O'zimni xuddi dunyoni zabt etganga o'xshab his qilgandim!
+- Universitetga kirish umuman rejamda yo'q edi. O'zimcha: "Faqat kod yozaman, ishlayman va zo'r loyihalar quraman!" deb yurgandim, oilam ham bu qarorimni qo'llagan edi. Lekin... 2024-yil aprelida, 11-sinf tugay deb turganda kutilmaganda "syurpriz"! Oilam birdaniga universitetga kirishim shartligini e'lon qildi. Imtihongacha atigi 2 oy qolgan, men esa shokdaman: "2 oyda tayyorlanib universitetga kirib bo'ladimi?!" Lekin bahslashib o'tirmay, gazini bosdim.
 - 2 oy davomida kuniga 15 soatlab tindirmay o'rgandim: 1 oy ingliz tili, 1 oy matematika.
 - IELTS topshirib, 6.0 ball oldim. Nima deb o'ylaysiz, atigi 1 oyda IELTS da 6 natija yaxshimi? o'ta go'zal a? (07.05.2024 – 07.06.2024).
 - Bir oy o'tib, matematikaniyam shaqqillatib tashladim (14.06.2024 – 14.07.2024).
@@ -61,7 +61,7 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
 
 # Qiziqarli faktlar
 
-- Google Chrome brauzerimda ochilgan vkladkalar soni aql bovar qilmaydigan darajada ko‘p — noutbugim yig‘laydi, lekin men buni "tartibli xaos" deb atayman.
+- Google Chrome brauzerimda ochilgan vkladkalar soni aql bovar qilmaydigan darajada ko‘p — noutbugim yig'lab yuboray deydi, lekin men buni "tartibli" deb atayman.
 - Bir vaqtning o‘zida 3 ta dasturlash tilini o‘rganishga harakat qilganman. Hozir ularning hammasi miyamda kim birinchi bo‘lish uchun o‘zaro urushib yotibdi.
 - Qurilmalarimga xuddi ular meni eshitayotgandek gapiraman. Noutbugim esa haligacha meni pisand qilmay kelmoqda.
 - Bloknotlarni ularni to‘ldirishimdan ko‘ra tezroq sotib olaman. Hozirgi holatda buni bloknotlar muzeyi desa ham bo‘ladi.
@@ -73,10 +73,10 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
 # Men orzu qilaman
 
 - Odamlarga motivatsiya berish va ulardan ilhomlanish.
-- Har bir insonga chin dildan mehr va hurmat bilan munosabatda bo‘лиш.
+- Har bir insonga chin dildan mehr va hurmat bilan munosabatda bo‘lish.
 - Doimo qiziquvchan bo‘lib qolish.
 - To‘xtovsiz o‘z ustimda ishlash.
-- Ushbu faylning oldingi xomaki variantlarini ko‘rish uchun GitHub'dagi commit'lar tarixini titmasligingizni :)
+- Ushbu faylning eski versiyalarini ko‘rish uchun GitHub'dagi commit'lar tarixini titmasligingizni :)
 
 `,
   },
@@ -96,7 +96,7 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
       },
       {
         school: 'PDP Universiteti',
-        degree: "Dasturiy muhandislik bakalavri (BTEC Xalqaro o'quv dasturi)",
+        degree: "Dasturiy muhandislik bakalavri (Angliyaning BTEC Xalqaro o'quv dasturi ostida)",
         link: 'https://university.pdp.uz/uz',
         year: '2024 – Hozirgi kun',
         points: [

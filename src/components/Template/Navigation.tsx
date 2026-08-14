@@ -7,15 +7,12 @@ import { useLanguage } from '@/context/LanguageContext';
 import type { Language } from '@/i18n/types';
 
 import Hamburger from './Hamburger';
+import LanguageSelector, { LANGUAGES } from './LanguageSelector';
 
-const LANGUAGES: { code: Language; label: string; flag: string }[] = [
-  { code: 'en', label: 'English', flag: '/flags/en.svg' },
-  { code: 'uz', label: "O'zbek", flag: '/flags/uz.svg' },
-  { code: 'ru', label: 'Русский', flag: '/flags/ru.svg' },
-];
+export { LANGUAGES };
 
 const Navigation: React.FC = () => {
-  const { t, language, setLanguage } = useLanguage();
+  const { t } = useLanguage();
 
   const navLinks = [
     { label: t.nav.about, path: '/about' },
@@ -32,7 +29,7 @@ const Navigation: React.FC = () => {
       <nav className="links">
         <ul>
           {navLinks.map((l) => (
-            <li key={l.label}>
+            <li key={l.path}>
               <Link href={l.path}>{l.label}</Link>
             </li>
           ))}
@@ -40,22 +37,7 @@ const Navigation: React.FC = () => {
       </nav>
 
       <div className="header-controls">
-        <div className="lang-switcher" role="group" aria-label="Language">
-          {LANGUAGES.map(({ code, label, flag }) => (
-            <button
-              key={code}
-              type="button"
-              className={`lang-seg-btn${language === code ? ' active' : ''}`}
-              onClick={() => setLanguage(code)}
-              title={label}
-              aria-pressed={language === code}
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={flag} alt="" className="seg-flag" draggable={false} />
-              <span className="seg-label">{code.toUpperCase()}</span>
-            </button>
-          ))}
-        </div>
+        <LanguageSelector />
       </div>
 
       <Hamburger />

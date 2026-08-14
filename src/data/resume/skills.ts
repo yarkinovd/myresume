@@ -22,12 +22,7 @@ const skills: Skill[] = [
     category: ['Skills'],
   },
   {
-    title: 'System administrator',
-    competency: 2,
-    category: ['Skills'],
-  },
-  {
-    title: 'Scrum & Kanban',
+    title: 'Sys Admin',
     competency: 2,
     category: ['Skills'],
   },
@@ -46,6 +41,11 @@ const skills: Skill[] = [
     competency: 2,
     category: ['CI/CD'],
   },
+  {
+    title: 'GitHub actions',
+    competency: 2,
+    category: ['CI/CD'],
+  },
   
   {
     title: 'JavaScript',
@@ -58,24 +58,9 @@ const skills: Skill[] = [
     category: ['Languages'],
   },
   {
-    title: 'TypeScript',
-    competency: 2,
-    category: ['Languages', 'Web Development'],
-  },
-  {
-    title: 'SQL',
-    competency: 2,
-    category: ['Databases'],
-  },
-  {
     title: 'MongoDB',
     competency: 2,
     category: ['Databases'],
-  },
-  {
-    title: 'GetX / Provider',
-    competency: 3,
-    category: ['Framework & Library', 'Mobile'],
   },
   // Web Development
   {
@@ -94,19 +79,9 @@ const skills: Skill[] = [
     category: ['Framework & Library', 'Mobile'],
   },
   {
-    title: 'Android (Play Store)',
-    competency: 3,
-    category: ['Mobile'],
-  },
-  {
     title: 'Firebase',
     competency: 3,
     category: ['Databases', 'Mobile'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 2,
-    category: ['Framework & Library'],
   },
   {
     title: 'Next.js',

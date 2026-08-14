@@ -1,4 +1,4 @@
-// Not found page
+// Hamburger Menu & Drawer Styles
 
 .bm-item-list {
   margin-top: 0;
@@ -12,14 +12,103 @@
   opacity: 0.5;
 }
 
+.hamburger-drawer-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+// ── Ultra-Sleek Segmented Capsule ─────────────────────────────
+.drawer-lang-control {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: _palette(bg-alt);
+  border: solid 1px _palette(border) !important;
+  border-radius: 50px;
+  padding: 3px;
+  gap: 2px;
+  margin-bottom: 1.25em;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.drawer-lang-segment {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 34px;
+  padding: 0 4px;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 50px;
+  cursor: pointer;
+  line-height: 1;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  @include vendor('transition', 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)');
+
+  .drawer-seg-flag {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    flex-shrink: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  }
+
+  .drawer-seg-label {
+    font-family: _font(family-heading);
+    font-size: 12px;
+    font-weight: _font(weight-heading-bold);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: _palette(fg-light);
+    white-space: nowrap;
+    @include vendor('transition', 'color 0.2s ease');
+  }
+
+  &:hover:not(.is-active) {
+    background: rgba(0, 0, 0, 0.04) !important;
+
+    .drawer-seg-label {
+      color: _palette(fg-bold);
+    }
+  }
+
+  &.is-active {
+    background: _palette(accent) !important;
+    box-shadow: 0 2px 6px rgba(46, 89, 186, 0.3) !important;
+
+    .drawer-seg-label {
+      color: #ffffff !important;
+    }
+
+    .drawer-seg-flag {
+      box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
 .hamburger-ul {
   display: block;
 
   li a h3 {
     border: 0;
     border-top: dotted 1px _palette(border);
-    margin: 1.5em 0 0 0;
-    padding: 1.5em 0 0 0;
+    margin: 1.25em 0 0 0;
+    padding: 1.25em 0 0 0;
+    font-family: _font(family-heading);
+    font-weight: _font(weight-heading);
+    letter-spacing: _font(kerning-heading);
+    text-transform: uppercase;
   }
 
   li a h3:hover {
@@ -36,5 +125,7 @@
 
   .index-li {
     border-top: none;
+    margin-top: 0.5em;
+    padding-top: 0;
   }
 }
