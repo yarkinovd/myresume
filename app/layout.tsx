@@ -1,25 +1,10 @@
 import type { Metadata } from 'next';
-import { Raleway, Source_Sans_3 } from 'next/font/google';
 import React from 'react';
 
 import GoogleAnalytics from '@/components/Template/GoogleAnalytics';
 import Navigation from '@/components/Template/Navigation';
 import '@/static/css/main.scss';
 import { Providers } from './providers';
-
-const sourceSans = Source_Sans_3({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-  variable: '--font-source-sans',
-  display: 'swap',
-});
-
-const raleway = Raleway({
-  weight: ['400', '800', '900'],
-  subsets: ['latin'],
-  variable: '--font-raleway',
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: {
@@ -62,7 +47,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${sourceSans.variable} ${raleway.variable}`}>
+    <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800;900&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>
         <Providers>
           <div id="wrapper">
