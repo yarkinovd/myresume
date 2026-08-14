@@ -55,7 +55,7 @@ const Hamburger: React.FC = () => {
         <Menu
           right
           isOpen={open}
-          onStateChange={(state) => setOpen(state.isOpen)}
+          onStateChange={(state: { isOpen: boolean }) => setOpen(state.isOpen)}
         >
           <div className="hamburger-drawer-content">
             <div className="drawer-lang-control" role="group" aria-label="Language Selector">
