@@ -16,7 +16,7 @@ const uz: Translations = {
     aboutMe: 'Men haqimda',
   },
   home: {
-    greeting: 'Salom, men Doniyorbekman',
+    greeting: 'Salom, mening ismim Doniyorbek',
     subtitle: 'Flutter va Fullstack yo‘nalishlarida dasturchi',
     intro: "Shaxsiy saytimga xush kelibsiz. Ko'proq o'qing:",
     aboutLink: 'men haqimda',
