@@ -189,6 +189,14 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
   },
   stats: {
     title: 'Statistika',
+    personalHeading: "Men haqimda ba'zi statistikalar",
+    siteHeading: "Ushbu sayt haqida ba'zi statistikalar",
+    ageLabel: 'Hozirgi yosh',
+    locationLabel: 'Hozirgi shahar',
+    cityValue: 'Toshkent',
+    starsLabel: 'Ushbu repozitoriyning GitHub dagi yulduzlari',
+    watchersLabel: 'Ushbu repozitoriyni kuzatuvchilar soni',
+    lastUpdatedLabel: 'Oxirgi yangilangan vaqt',
   },
 };
 

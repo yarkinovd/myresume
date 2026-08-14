@@ -186,6 +186,14 @@ const ru: Translations = {
   },
   stats: {
     title: 'Статистика',
+    personalHeading: 'Немного статистики обо мне',
+    siteHeading: 'Статистика этого сайта',
+    ageLabel: 'Текущий возраст',
+    locationLabel: 'Текущий город',
+    cityValue: 'Ташкент',
+    starsLabel: 'Звёзд у этого репозитория на GitHub',
+    watchersLabel: 'Количество наблюдателей репозитория',
+    lastUpdatedLabel: 'Последнее обновление',
   },
 };
 
