@@ -11,14 +11,14 @@ const en: Translations = {
   sidebar: {
     aboutHeading: 'About',
     blurb:
-      "Hi, I'm a Software Engineer focused on Flutter and Fullstack development, currently studying Software Engineering at PDP University on a 100% scholarship. I previously worked as a Frontend developer and Lead Mentor, training over 200 students. Today, I build large-scale national GovTech platforms and mobile enterprise solutions at Realsoft.",
+      "Hi! I'm a Software Engineer focused on Flutter and Fullstack development. Currently studying Software Engineering at PDP University on a 100% scholarship. Previously worked as a Frontend developer and Lead Mentor, training over 200 students. Today at Realsoft, I build large-scale national GovTech platforms and enterprise mobile applications.",
     learnMore: 'Learn More',
     aboutMe: 'About Me',
   },
   home: {
-    greeting: "Hi, I'm Doniyorbek",
-    subtitle: 'Software Engineer focused on Flutter & Fullstack development.',
-    intro: 'Welcome to my personal site. Feel free to read more',
+    greeting: 'Hi, my name is Doniyorbek',
+    subtitle: 'Flutter & Fullstack Software Engineer',
+    intro: 'Welcome to my personal site. Read more:',
     aboutLink: 'about me',
     resumeLink: 'resume',
     statsLink: 'site statistics',
@@ -27,57 +27,23 @@ const en: Translations = {
   about: {
     title: 'About Me',
     wordCount: (n) => `in about ${n} words`,
-    content: `# Intro
+    content: `
 
-Software Engineering student at PDP University (100% Scholarship recipient, 2024) pursuing an international BTEC curriculum. Transitioned from Frontend development (React, TS, Next.js) to Mobile Engineering with a strong focus on Flutter. Proven educator and leader, having trained 200+ students as a Lead Frontend Instructor from 2023 to 2024. Continually growing as a mobile developer, combining deep technical expertise with a creative background in digital marketing (SMM/Mobilography, 2023–2024) to build user-centric, high-performance software solutions.
+Every project is a new milestone. If you'd like to collaborate or simply chat over a cup of coffee, feel free to reach out!
+
+# Some Info
+
+- Once I started learning Frontend development, I realized how well I connect with websites, UI design, and colors.
+- I was always fascinated by video editing but couldn't get the hang of it, so I also learned SMM and Mobilography. This creative process quickly became my favorite hobby, especially since video editing once felt like an unattainable dream to me.
+- For one full year (from May 2023 to May 2024), I worked as the Lead Frontend Mentor and developer at an IT center. I guided over 200 students into the programming world — this remains one of the achievements I am most proud of and hold close to my heart!
+- During that same year, I also hustled as an SMM specialist and mobilographer for stores, learning centers, clothing shops, and restaurants. It was an extremely exciting period that taught me to understand people better than any psychology book could!
+- I took the IELTS and scored 6.0. What do you think, is an IELTS score of 6 in just 1 month good? (07.05.2024 – 07.06.2024).
+
+For any other "adventures" I'm afraid to put on the internet, ask me when we meet in person 😉
 
 
-If you'd like to collaborate or just connect, feel free to reach out.
+The reason I added this page is because many people complained that my site was just a resume.
 
-# Some History
-
-- I started learning Frontend Development and instantly fell in love with building things on the web.
-- I learned React.js, TypeScript, and Next.js, spending the period from January 2023 to May 2023 fully diving into modern web development.
-- Around the same time, I also learned SMM and Mobilography. I didn't plan for it — I was just curious and ended up enjoying the creative process.
-- For one full year (from May 2023 to May 2024), I worked as the main Frontend mentor and developer at an IT education center. I taught over 200 students, which is still one of my favorite accomplishments.
-- For that same year, I also worked as an SMM specialist and mobilographer for several businesses — shops, learning centers, clothing stores, and restaurants. It was chaotic, fun, and taught me more about people than any book could.
-- I bought my first big tech "trophy," an iPhone 14 Pro Max (09.10.2023). I felt unstoppable.
-- I wasn't planning to enter the university at all. I was confident that I would just learn programming, work, and build projects — and my family fully supported me in that decision. But everything changed suddenly in April 2024, right before I finished the 11th grade. My family decided that I must enter the university. With only two months left before the entrance exams, I was shocked. I asked myself every day if it was even possible to prepare that fast. But I didn't argue — instead, I pushed harder than ever before.
-- For two intense months, I studied 15 hours a day: 1 month of English. 1 month of Mathematics
-- I took the IELTS and earned a 6.0 (07.05.2024 – 07.06.2024).
-- A month later, I finished my Mathematics preparation (14.06.2024 – 14.07.2024).
-- I scored 127.3 points on the national university entrance exam.
-- Then I bought an iPhone 15 Pro (01.08.2024). I don't always reward myself — but when I do, it's with Apple products.
-- On August 30, 2024, I won a 100% scholarship to PDP University and officially became a first-year student. My major: Software Engineering with a focus on Flutter.
-- And yes… I couldn't stop there. I finally bought a MacBook Pro 2021 (M1 Pro, 16GB RAM / 512GB SSD, 14-inch) (20.10.2024). It felt like leveling up in real life.
-
-Ask me in person for other stories that I'm afraid to share with the internet.
-
-# I Like
-
-- Reading fiction books
-- Playing football
-- Armwrestling
-- Computer games
-
-# Fun Facts
-
-- I have an unhealthy number of Google Chrome tabs open — my laptop cries, but I call it "organized chaos."
-- I once tried to learn 3 programming languages at the same time. Now they all live in my head fighting for dominance.
-- I talk to my devices as if they can hear me. My laptop still refuses to listen.
-- I collect notebooks faster than I fill them. At this point, it's basically a museum.
-- I set way too many alarms every morning — one of them might wake me up someday.
-- I can't cook without turning the kitchen into a crime scene, but I still try because optimism is important.
-- I like buying gadgets I don't need and then pretending they were essential to my survival.
-- I added this page because many people complained that my site was just my resume.
-
-# I Dream Of
-
-- Inspiring and feeling inspired.
-- Treating every individual with genuine kindness and respect.
-- Staying curious.
-- Continually improving.
-- You not checking the commit history for earlier drafts of this file.
 `,
   },
   resume: {
@@ -111,93 +77,86 @@ Ask me in person for other stories that I'm afraid to share with the internet.
         position: 'Software Engineer (Mobile & Fullstack)',
         url: 'https://realsoft.uz',
         startDate: '2026-05-27',
-        summary: `I originally joined as a Flutter dev, but let's be real—in a high-speed environment, you either adapt or get left behind. I quickly evolved into a Fullstack role because I love tearing down problems, whether they are floating on the UI or buried deep in the backend database. Building massive national platforms basically turned me into a tech chameleon ready for any position.`,
+        summary: '',
         highlights: [
-          'Raqamli Bozor (raqamli-bozor.uz): A massive GovTech monster designed to digitalize and monitor every single farming market and trade complex across Uzbekistan. I worked as a fullstack engineer, taking charge of completely moving physical shops and market stalls into the digital space.',
-          "EasyTrip: A literal lifesaver mobile app for tourists visiting Uzbekistan. It cures their biggest travel anxiety—dealing with price transparency, finding landmarks, and making reservations without getting lost. I engineered the core user-centric features and polished the real-time booking flows so foreign guests don't get stuck.",
-          "Mahalla Bankiri: A specialized mobile application for debt collection field agents, and yes, it was just as intense as it sounds! Built a strict geofencing boundary system with background GPS monitoring. If you are assigned to 'Do'stlik MFY', you cannot step a foot outside that neighborhood; the app instantly tracks it, manages working hours, and keeps everything locked down.",
-          'Agros (agros.uz): A huge ecosystem bringing digital order to the agricultural sector. I completely dove into the legacy code, hunted down and killed all existing mobile bugs, and expanded the app by rolling out a fresh batch of new features.',
-          'Flexibility Master: Jumped back and forth between Flutter mobile development and comprehensive backend/frontend infrastructure depending on where the team desperately needed a fire put out.',
+          'raqamli-bozor.uz: A massive platform digitalizing all farmers\' markets and commercial shopping complexes across Uzbekistan for government monitoring.',
+          'EasyTrip: A real assistant app for tourists visiting Uzbekistan. Solves issues of unfamiliar pricing, getting lost, and booking places in a new country.',
+          'Mahalla Bankiri: A specialized mobile application for debt collection field agents. Features background GPS monitoring and a strict geofencing system.',
+          'agros.uz: A large-scale ecosystem digitalizing an insurance company.',
         ],
       },
       {
         name: 'Freelancer',
-        position: 'Fullstack developer',
+        position: 'Fullstack Developer',
         url: '',
         startDate: '2024-07-20',
         endDate: '2026-05-25',
-        summary: `Let's be completely honest: I didn't treat this as a 9-to-5 career. This was my personal ATM machine for securing quick cash whenever bills piled up or I just needed money. Someone needed a custom project or a feature fast? I grabbed the gig, smashed the code, delivered the product, and collected the bag. Pure on-demand hustle.`,
+        summary: '',
         highlights: [
-          'Operated as a lone wolf, building and deploying full-stack web and mobile projects completely from scratch for various clients.',
-          'Handled the entire lifecycle solo—from arguing over budgets and scope with clients to writing every line of code and hitting production.',
-          'Mastered the art of high-speed development under insane deadlines, because faster delivery meant faster payouts.',
-          'Shuffled through different tech stacks daily, adapting instantly to whatever random tools the client’s project demanded.',
-          'Kept clients happy and jobs completed, maintaining a flawless 100% success rate of getting paid on time.',
+          "I can't say I worked non-stop during these 2 years; I just took on jobs whenever pockets were empty or I needed to make money. If someone needed a project or a feature done fast, I quickly took the order, nailed the code from start to finish, delivered it, and got paid.",
+          'Built full-stack web and mobile projects from scratch all the way to production for diverse clients.',
+          'Handled everything from negotiating budgets and clarifying client requirements to writing code and deploying to servers.',
         ],
       },
       {
         name: 'Meta IT School',
-        position: 'Frontend mentor',
-        url: 'https://instagram.com',
+        position: 'Frontend Mentor',
+        url: 'https://instagram.com/metaitschool',
         startDate: '2023-05-01',
         endDate: '2024-05-01',
-        summary: `Being the Lead Frontend Mentor was a wild, exhausting, and incredibly rewarding ride. I personally guided over 200 students into the tech world. I didn't just teach them React; I basically had to act as a therapist so they wouldn't quit when JavaScript started acting weird.`,
+        summary: '',
         highlights: [
-          'Managed multiple cohorts of 200+ students altogether, dealing with an endless stream of questions, code reviews, and survival mentorship.',
-          'Created a completely fluff-free curriculum covering HTML/CSS, core JavaScript, React, and clean project architecture.',
-          'Forced students to build real, broken-at-first, production-level projects from day one so they could taste actual developer life.',
-          "Taught them Git workflows, modern tooling, and deployment secrets so they wouldn't look completely clueless in real job interviews.",
-          "Boosted graduation rates through intense 1-on-1 coding sessions and heavy emotional support when their code wouldn't compile.",
+          'Taught over 200 aspiring IT enthusiasts — packed with endless questions, code reviews, and survival lessons in the tech world.',
+          'Created practice-based courses for HTML/CSS, JS, React, and project architecture with zero dry or useless fluff.',
+          "Taught them Git, modern tools, and project deployment secrets so they wouldn't get grilled or stumble during technical interviews.",
         ],
       },
       {
         name: 'Meta IT School',
-        position: 'Frontend developer',
-        url: 'https://instagram.com',
+        position: 'Frontend Developer',
+        url: 'https://instagram.com/metaitschool',
         startDate: '2023-05-01',
         endDate: '2024-05-01',
-        summary: `While mentoring, I was also building the school’s actual internal ecosystem. I wrote code for student dashboards and web tools to keep the entire educational machine running smoothly behind the scenes.`,
+        summary: '',
         highlights: [
-          'Built snappy, responsive student and admin dashboards using React and modern frontend optimization tricks.',
-          'Sat down with management to turn complex educational workflows into clean, working software features.',
-          'Killed UI lag by optimizing performance and writing clean, reusable components that other devs could actually read without crying.',
-          'Hooked up backend APIs to display real-time student progress, metrics, and course states.',
-          'Chased pixel-perfect designs to ensure the school’s platforms looked modern, polished, and easy to navigate.',
+          'Developed responsive dashboards and internal tools using React and modern frontend patterns.',
+          'Collaborated with the team and leadership to enhance the digital learning experience.',
+          'Integrated APIs and built interfaces supporting student progress tracking and course management.',
         ],
       },
       {
         name: 'Meta IT School',
-        position: 'SMM manager & mobilographer',
-        url: 'https://instagram.com',
+        position: 'SMM Manager & Mobilographer',
+        url: 'https://instagram.com/metaitschool',
         startDate: '2023-05-01',
         endDate: '2024-05-01',
-        summary: `Wore a completely different hat here. I took total charge of the school's social media and visual presence, translating the brand’s story into high-quality video content that actually hooked people's attention.`,
+        summary: '',
         highlights: [
-          'Shot and edited hype promotional videos, reels, and photos showcasing student success stories and campus life.',
-          'Ran the Instagram strategy, turning dry technical announcements into highly engaging, viral content.',
-          'Collaborated with teachers and staff to capture authentic stories for digital marketing campaigns.',
-          'Handled the full creative process from holding the camera to cutting clips, color grading, and hitting the post button.',
-          'Proved once and for all that developers can actually be highly creative outside of a code editor.',
+          'Created promotional videos, photos, and Reels content to showcase student projects and education center events.',
+          'Designed visual concepts that reinforced brand identity and improved audience engagement.',
+          'Managed the complete production pipeline from shooting and editing to color grading and uploading to social platforms.',
         ],
       },
     ],
   },
   contact: {
     title: 'Contact',
-    description: 'Feel free to get in touch. You can message me on Telegram at:',
+    description:
+      'Feel free to get in touch. You can message me on Telegram at:',
     messages: [
       '@yarkinovd',
-      'hello',
+      'Assalamu’alaikum',
+      'Assalamu’alaikum warahmatullahi wabarakatuh',
       'you can message me about literally anything! Really',
-      'well, not anything. But most things',
+      'well, not literally anything, but almost anything',
       'like this',
       'or this',
       'but not this :(  ',
-      'you can also message me with specific topics like',
+      'you can also message me about specific topics, like',
       'just saying hi',
-      'please work for us',
-      'help',
-      'or I really like your website',
+      'work with us',
+      'need help',
+      'or I really liked your site',
       'thanks',
     ],
   },

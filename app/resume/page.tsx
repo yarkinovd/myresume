@@ -8,8 +8,6 @@ import degrees from '@/data/resume/degrees';
 import { categories, skills } from '@/data/resume/skills';
 import work from '@/data/resume/work';
 
-import ResumeHeader from '../components/ResumeHeader';
-
 export const metadata: Metadata = {
   title: 'Resume',
   description: "Doniyorbek Yarkinov's resume",
@@ -18,9 +16,6 @@ export const metadata: Metadata = {
 export default function ResumePage() {
   return (
     <article className="post" id="resume">
-      <header>
-        <ResumeHeader />
-      </header>
 
       <section id="education" className="education">
         <div className="link-to" />
