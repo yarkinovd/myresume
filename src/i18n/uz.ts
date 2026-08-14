@@ -29,22 +29,22 @@ const uz: Translations = {
     wordCount: (n) => `taxminan ${n} so'z`,
     content: `# Kirish
 
-PDP Universiteti "Dasturiy injiniring" yo'nalishi talabasi (2024-yilda 100% grant sohibi) va Angliyaning xalqaro BTEC dasturi talabasi. Faoliyatimni Frontend (React, TypeScript, Next.js) texnologiyalaridan boshlab, hozirda asosiy e'tiborimni Flutter va mobil muhandislikka qaratganman. Kuchli yetakchilik va pedagogik tajribaga egaman: 2023–2024-yillarda IT markazda Bosh Frontend o'qituvchisi (Lead Instructor) sifatida 200 dan ortiq talabalarni o'qitganman. Foydalanuvchilarga qulay va yuqori unumdorlikka ega dasturiy yechimlarni yaratish uchun chuqur texnik bilimlarni raqamli marketing (SMM/Mobilografiya, 2023–2024) sohasidagi kreativ tajribam bilan birlashtirgan holda, mobil va fullstack dasturchi sifatida doimiy o'sib bormoqdaman.
+PDP Universiteti "Dasturiy injiniring" yo'nalishi talabasi (2024-yilda 100% grant sohibi) va Angliyaning xalqaro BTEC dasturi talabasi. Faoliyatimni Frontend (React, TypeScript, Next.js) texnologiyalaridan boshlab, hozirda asosiy e'tiborimni Flutter va mobil muhandislikka qaratganman. Kuchli yetakchilik va pedagogik tajribaga egaman: 2023–2024-yillarda IT markazda Bosh Frontend o'qituvchisi (Lead Instructor) sifatida 200 dan ortiq talabalarni o'qitganman. Foydalanuvchilarga qulay va yuqori unumdorlikka ega dasturiy yechimlarni yaratish uchun mobil va fullstack dasturchi sifatida doimiy o'sib bormoqdaman.
 
 Har bir loyiha — yangi bosqich. Agar hamkorlik qilmoqchi bo'lsangiz yoki shunchaki bir finjon kofe ustida suhbatlashmoqchi bo'lsangiz, murojaat qilishdan tortinmang!
 
 # Bir oz qiziqarli ma'lumotlar
 
-- Frontend Development ni o'rganishni boshladim-u, veb-saytlar va foydalanuvchi interfeyslarini o'ta moooo'tadil qilib yaratish yoqib qoldi, qisqa qilib aytganda dizaynga moyilligim bor ekan.
-- 2023-yil yanvardan maygacha React.js, TypeScript va Next.js ga shunaqangi o'rgandimki, hatto tushlarimda ham JSX kod yozib chiqardim.
-- Orada kutilmaganda SMM va Mobilografiyani ham o'rganib oldim. Aslida rejamda yo'q edi — shunchaki "qani ko'ray-chi" deb qiziqib ko'rgandim, oxiri bu ijodiy jarayon mening sevimli mashg'ulotimga aylanib ketdi, chunki bir paytlar video montaj ishlari men uchun ushalmas orzudek ko'rinar edida.
+- Frontend yo'nalishinini o'rganishni boshladim-u, veb-saytlar va dizaynlar, ranglar bilan yaxshi kelisha olishimni bildim.
+- 2023-yil yanvardan maygacha React.js, TypeScript va Next.js larni o'rgandim, hatto tushlarimda ham JSX kod yozib chiqardim.
+- Videomontaj ishlariga qiziqar edim lekin hech eplay olmasdim, SMM va Mobilografiyani ham o'rganib oldim. Bu ijodiy jarayon mening sevimli mashg'ulotimga aylanib ketdi, chunki bir paytlar video montaj ishlari men uchun ushalmas orzudek ko'rinar edida.
 - Bir to'liq yil davomida (2023-yil maydan 2024-yil maygacha) IT markazda Bosh Frontend mentor va dasturchi bo'lib ishladim. 200 dan ortiq talabalarni dasturlash olamiga yetakladim — bu haligacha mening eng faxrlanadigan va yuragimga yaqin yutuqlarimdan biri!
 - O'sha bir yil davomida do'konlar, o'quv markazlari, kiyim do'konlari va restoranlar uchun SMM hamda mobilograf bo'lib ham yugurib yurdim. O'ta qiziqarli va har qanday psixologiya kitobidan ham ko'ra insonlarni yaxshiroq tushunishni o'rgatgan davr bo'ldi!
 - Hayotimdagi o'z ishlab topgan pulimga birinchi katta texnologik "kubogim" — iPhone 14 Pro Max sotib oldim (09.10.2023). O'zimni xuddi dunyoni zabt etganga o'xshab his qilgandim!
 - Universitetga kirish umuman rejamda yo'q edi. O'zimcha: "Faqat kod yozaman, ishlayman va zo'r loyihalar quraman!" deb yurgandim, oilam ham bu qarorimni qo'llagan edi. Lekin... 2024-yil aprelida, 11-sinf tugay deb turganda kutilmaganda "syurpriz"! Oilam birdaniga universitetga kirishim shartligini e'lon qildi. Imtihongacha atigi 2 oy qolgan, men esa shokdaman: "2 oyda tayyorlanib universitetga kirib bo'ladimi?!" Lekin bahslashib o'tirmay, gazini bosdim.
 - 2 oy davomida kuniga 15 soatlab tindirmay o'rgandim: 1 oy ingliz tili, 1 oy matematika.
 - IELTS topshirib, 6.0 ball oldim. Nima deb o'ylaysiz, atigi 1 oyda IELTS da 6 natija yaxshimi? o'ta go'zal a? (07.05.2024 – 07.06.2024).
-- Bir oy o'tib, matematikaniyam shaqqillatib tashladim (14.06.2024 – 14.07.2024).
+- Bir oy o'tib, matematikani ham o'rgandim (14.06.2024 – 14.07.2024).
 - DTM kirish imtihonida 127.3 ball yig'dim.
 - Keyin darhol o'zimni mukofotlash uchun iPhone 15 Pro sotib oldim (01.08.2024). O'zimni tez-tez siylamayman — lekin siylasam, albatta Apple mahsuloti bilan! Apple legenda
 - 2024-yil 30-avgust kuni PDP Universitetiga 100% grant yutib oldim va rasman 1-kurs talabasiga aylandim! Yo'nalishim: Flutterga ixtisoslashgan Dasturiy Injiniring.
@@ -61,10 +61,8 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
 
 # Qiziqarli faktlar
 
-- Google Chrome brauzerimda ochilgan vkladkalar soni aql bovar qilmaydigan darajada ko‘p — noutbugim yig'lab yuboray deydi, lekin men buni "tartibli" deb atayman.
 - Bir vaqtning o‘zida 3 ta dasturlash tilini o‘rganishga harakat qilganman. Hozir ularning hammasi miyamda kim birinchi bo‘lish uchun o‘zaro urushib yotibdi.
 - Qurilmalarimga xuddi ular meni eshitayotgandek gapiraman. Noutbugim esa haligacha meni pisand qilmay kelmoqda.
-- Bloknotlarni ularni to‘ldirishimdan ko‘ra tezroq sotib olaman. Hozirgi holatda buni bloknotlar muzeyi desa ham bo‘ladi.
 - Har tongga haddan tashqari ko‘p budilnik qo‘yaman — balki ulardan biri qachondir meni chindan uyg‘otar.
 - Oshxonani "jinoyat maydoni"ga aylantirmasdan turib ovqat pishirolmayman, lekin baribir urinib ko‘raman, chunki hayotda optimizm muhim.
 - Menga umuman kerak bo‘lmagan gadjetlarni sotib olib, keyin ularsiz yashab bo‘lmasligini isbotlashga urinishni yaxshi ko‘raman.
