@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 
 import { StatData } from '../../components/Stats/types';
 
-const Age: React.FC = () => {
+export const Age: React.FC = () => {
   const [age, setAge] = useState<string>('');
 
   const tick = () => {
@@ -24,17 +24,4 @@ const Age: React.FC = () => {
   return <>{age}</>;
 };
 
-const data: StatData[] = [
-  {
-    key: 'age',
-    label: 'Current age',
-    value: <Age />,
-  },
-  {
-    key: 'location',
-    label: 'Current city',
-    value: 'Tashkent',
-  },
-];
-
-export default data;
+export default Age;

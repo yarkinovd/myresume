@@ -194,7 +194,7 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
     ageLabel: 'Hozirgi yosh',
     locationLabel: 'Hozirgi shahar',
     cityValue: 'Toshkent',
-    starsLabel: 'Ushbu repozitoriyning GitHub dagi yulduzlari',
+    starsLabel: 'Ushbu repozitoriyning GitHub dagi yulduzlar soni',
     watchersLabel: 'Ushbu repozitoriyni kuzatuvchilar soni',
     lastUpdatedLabel: 'Oxirgi yangilangan vaqt',
   },

@@ -13,7 +13,9 @@ const TableRow: React.FC<TableRowProps> = ({
     ? value
     : format
       ? format(value)
-      : String(value);
+      : value !== null && value !== undefined
+        ? String(value)
+        : '';
 
   return (
     <tr>
