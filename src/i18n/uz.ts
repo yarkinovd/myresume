@@ -29,7 +29,7 @@ const uz: Translations = {
     wordCount: (n) => `taxminan ${n} so'z`,
     content: `# Kirish
 
-PDP Universiteti "Dasturiy injiniring" yo'nalishi talabasi (2024-yilda 100% grant sohibi) va Angliyaning xalqaro BTEC dasturi talabasi. Faoliyatimni Frontend (React, TypeScript, Next.js) texnologiyalaridan boshlab, hozirda asosiy e'tiborimni Flutter va mobil muhandislikka qaratganman. Kuchli yetakchilik va pedagogik tajribaga egaman: 2023–2024-yillarda IT markazda Bosh Frontend o'qituvchisi (Lead Instructor) sifatida 200 dan ortiq talabalarni o'qitganman. Foydalanuvchilarga qulay va yuqori unumdorlikka ega dasturiy yechimlarni yaratish uchun mobil va fullstack dasturchi sifatida doimiy o'sib bormoqdaman.
+PDP Universiteti "Dasturiy injiniring" yo'nalishi talabasi (2024-yilda 100% grant sohibi) va Angliyaning xalqaro BTEC dasturi talabasi. Faoliyatimni Frontend (React, TypeScript, Next.js) texnologiyalaridan boshlab, hozirda asosiy e'tiborimni Flutter va mobil dasturlashga qaratganman. Kuchli yetakchilik va pedagogik tajribaga egaman: 2023–2024-yillarda IT markazda Bosh Frontend o'qituvchisi (Lead Instructor) sifatida 200 dan ortiq talabalarni o'qitganman. Foydalanuvchilarga qulay va yuqori unumdorlikka ega dasturiy yechimlarni yaratish uchun mobil va fullstack dasturchi sifatida doimiy o'sib bormoqdaman.
 
 Har bir loyiha — yangi bosqich. Agar hamkorlik qilmoqchi bo'lsangiz yoki shunchaki bir finjon kofe ustida suhbatlashmoqchi bo'lsangiz, murojaat qilishdan tortinmang!
 
@@ -114,7 +114,7 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
           "Raqamli Bozor (raqamli-bozor.uz): O‘zbekistondagi barcha dehqon bozorlari va savdo komplekslarini davlat monitoringi uchun raqamlashtiradigan ulkan platforma. Bu yerda fullstack kod yozib, hamma do'kon va rastalarni to'liq tizimga ulab, raqamlashtirib chiqdim.",
           "EasyTrip: O‘zbekistonga kelgan turistlar uchun haqiqiy xaloskor ilova. Ularning eng katta og‘riqli nuqtalarini davolaydi: begona yurtda narxlarni bilmaslik, adashib qolish va joy band qilish (booking) muammosini hal qiladi. Men loyihada foydalanuvchilar ko'radigan qismlarini va real vaqtdagi bron qilish oqimini maromiga yetkazib berdim.",
           "Mahalla Bankiri: Qarzdorlikni undiruvchi xodimlar uchun maxsus mobil ilova va loyiha ham nomi kabi ancha jiddiy bo'ldi! Background GPS monitoring va qat’iy geofencing (geodevor) tizimini qurdik. Agar sizga 'Do‘stlik MFY' berilgan bo‘lsa, o'sha hududdan chiqolmaysiz, ilova srazu GPS orqali buni sezadi, ish vaqtini o‘lchaydi va nazorat qiladi.",
-          "Agros (agros.uz): Agrotexnika sektorini raqamlashtiradigan yirik ekotizim. Bu yerda mobil ilovadagi bor bo‘lgan hamma eski xatoliklarni (bug'larni) ildizi bilan tozalab chiqdim va tizimni kengaytirish uchun mutlaqo yangi funksiyalar (feature'lar) qo‘shdim.",
+          "Uz Agro Sug'urta (agros.uz): Sug'urta kompaniyasini raqamlashtiradigan yirik ekotizim. Bu yerda mobil ilovadagi bor bo‘lgan hamma eski xatoliklarni (bug'larni) ildizi bilan tozalab chiqdim va tizimni kengaytirish uchun mutlaqo yangi funksiyalar (feature'lar) qo‘shdim.",
           'Texnik Xameleon: Jamoa yoki biznesga aynan o‘sha soniyada nima juda zarur bo‘lsa, Flutter, frontend va backend o‘rtasida o‘sha zaxoti sakrab o‘ta olaman. Maksimal moslashuvchanlik.',
         ],
       },
@@ -124,13 +124,12 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
         url: '',
         startDate: '2024-07-20',
         endDate: '2026-05-25',
-        summary: `Keling, ochig‘ini gaplashamiz: bu men uchun 2 yillik quruq ish joyi bo‘lmagan. Bu — har safar cho‘ntak bo‘shab qolganda yoki pul kerak bo‘lganda soqqani qilish uchun ishlatadigan shaxsish 'apparatim' edi. Kimgadir tezda proyekt yoki funksiya kerakmi, zakazni tezda olardim, kodini chokini so'kib bitirardim, topshirib pulimni olib yuraverardim.`,
+        summary: `Keling, ochig‘ini gaplashamiz: Bu 2 yil ichida tinmay ishladim deya olmayman, Bu — har safar cho‘ntak bo‘shab qolganda yoki pul kerak bo‘lganda soqqani qilish uchun ishlaganman. Kimgadir tezda proyekt yoki funksiya kerakmi, zakazni tezda olardim, kodini chokini so'kib bitirardim, topshirib pulimni olib yuraverardim.`,
         highlights: [
-          "Yolg'iz bo'ri sifatida har xil mijozlar uchun 0 dan to production'gacha bo'lgan full-stack veb va mobil loyihalar qilib yurdim",
+          "Har xil mijozlar uchun 0 dan to production'gacha bo'lgan full-stack veb va mobil loyihalar qilib yurdim",
           "Soqqa ustida talashish va mijoz talablarini aniqlashtirishdan boshlab, kod yozish va serverga yuklashgacha bo'lgan hamma narsa",
-          "Crazy dedlaynlar ostida tezkor ishlash san'atini mukammal o'rgandim, chunki tez topshirish — tezroq soqqa olish degani edida",
-          "Har kuni har xil texnologiyalar ichida yurdim, mijozning loyihasiga qaysi instrument kerak bo'lsa, tezda o'rganib moslashib ketaverdim.",
-          "Mijozlarni doim xursand qildim va 100% holatda pullarni o'z vaqtida undirish bo'yicha shaxsiy rekordimni saqlab qoldim.",
+          "Crazy dedlaynlar ostida tezkor ishlash san'atini mukammal o'rgandim, chunki tez topshirish — tezroq soqqa olish degani",
+          "Har kuni har xil texnologiyalar ichida yurdim, mijozning loyihasiga qaysi instrument kerak bo'lsa, tezda o'rganib moslashdim.",
         ],
       },
       {
@@ -139,10 +138,10 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
         url: 'https://instagram.com',
         startDate: '2023-05-01',
         endDate: '2024-05-01',
-        summary: `Bosh Frontend mentor bo'lish men uchun juda qiziqarli va katta tajriba bo'ldi. 200 dan ortiq talabani IT olamiga shaxsan yetaklab kirdim. Ularga faqat React'ni o'rgatmadim, balki JavaScript 'gandurashni' boshlaganda tashlab ketmasliklari uchun ruhan ham qo'llab-quvvatladim.`,
+        summary: `Bosh Frontend mentor bo'lish men uchun juda qiziqarli va katta tajriba bo'ldi. 200 dan ortiq talabani IT olamiga shaxsan yetaklab kirdim. Ularga faqat React'ni o'rgatmadim, balki JavaScriptga kelganda qiyinlashayotganda tashlab ketmasliklari uchun ruhan ham qo'llab-quvvatladim.`,
         highlights: [
-          "200 dan ortiq IT ga qiziqadigan aytishnikchalarni o'qitdim — cheksiz savollar, kod revyular va IT dunyosida omon qolish (survival) darslari bilan o'tdi.",
-          "Hech qanday quruq va keraksiz 'metodchalar'siz, faqat amaliyotga asoslangan HTML/CSS, JS, React va loyiha arxitekturasi darsliklarini tayyorladim.",
+          "200 dan ortiq IT ga qiziqadigan aytishniklarni o'qitdim — cheksiz savollar, kod revyular va IT dunyosida omon qolish (survival) darslari bilan o'tdi.",
+          "Hech qanday quruq va keraksiz 'metodlar'siz, faqat amaliyotga asoslangan HTML/CSS, JS, React va loyiha arxitekturasi darsliklarini tayyorladim.",
           "Talabalarni birinchi kundan boshlab real, boshida rosa sindiradigan proyektlar yozishga majburlardim (azobladim desa ham bo'ladi), toki ular haqiqiy dasturchi hayotini his qilsin.",
           "Intervyularda qovurilib qolmasliklari uchun ularga Git, zamonaviy instrumentlar va proyektni serverga yuklash (deployment) sirlarini o'rgatdim.",
           "Kod buzilib, talabalarning 'depressiyasi' boshlanganda yakkama-yakka yordam berib, dasturlash hayotiga bo'lgan motivatsiyasini oshirdim.",
