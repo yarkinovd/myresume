@@ -184,7 +184,22 @@ Ask me in person for other stories that I'm afraid to share with the internet.
   },
   contact: {
     title: 'Contact',
-    description: 'Feel free to get in touch. You can email me at:',
+    description: 'Feel free to get in touch. You can message me on Telegram at:',
+    messages: [
+      '@yarkinovd',
+      'hello',
+      'you can message me about literally anything! Really',
+      'well, not anything. But most things',
+      'like this',
+      'or this',
+      'but not this :(  ',
+      'you can also message me with specific topics like',
+      'just saying hi',
+      'please work for us',
+      'help',
+      'or I really like your website',
+      'thanks',
+    ],
   },
   stats: {
     title: 'Stats',

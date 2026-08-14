@@ -2,26 +2,12 @@
 
 import React, { useEffect, useReducer, useRef } from 'react';
 
+import { useLanguage } from '@/context/LanguageContext';
+
 const validateText = (text: string): boolean => {
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
+  const re = /^@?[a-zA-Z0-9_]+$/;
   return re.test(text) || text.length === 0;
 };
-
-const messages = [
-  'hi',
-  'hello',
-  'you can email me at literally anything! Really',
-  'well, not anything. But most things',
-  'like this',
-  'or this',
-  'but not this :(  ',
-  'you can also email me with specific topics like',
-  'just saying hi',
-  'please work for us',
-  'help',
-  'or I really like your website',
-  'thanks',
-];
 
 const useInterval = (callback: () => void, delay: number | null) => {
   const savedCallback = useRef<() => void>(callback);
@@ -49,9 +35,10 @@ type AnimationState = {
 };
 
 type AnimationAction =
-  | { type: 'TICK'; loopMessage: boolean; hold: number }
+  | { type: 'TICK'; loopMessage: boolean; hold: number; messages: string[] }
   | { type: 'PAUSE' }
-  | { type: 'RESUME'; maxIdx: number };
+  | { type: 'RESUME'; maxIdx: number }
+  | { type: 'RESET'; messages: string[] };
 
 const animationReducer = (
   state: AnimationState,
@@ -59,10 +46,18 @@ const animationReducer = (
 ): AnimationState => {
   switch (action.type) {
     case 'TICK': {
+      const messages = action.messages;
+      if (!messages || messages.length === 0) return state;
+
       let newIdx = state.idx;
       let newChar = state.char;
 
-      if (state.char - action.hold >= messages[state.idx].length) {
+      if (newIdx >= messages.length) {
+        newIdx = 0;
+        newChar = 0;
+      }
+
+      if (state.char - action.hold >= messages[newIdx].length) {
         newIdx += 1;
         newChar = 0;
       }
@@ -96,6 +91,13 @@ const animationReducer = (
         ...state,
         isActive: state.idx < action.maxIdx,
       };
+    case 'RESET':
+      return {
+        idx: 0,
+        message: '',
+        char: 0,
+        isActive: true,
+      };
     default:
       return state;
   }
@@ -106,19 +108,25 @@ interface EmailLinkProps {
 }
 
 const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
+  const { t, language } = useLanguage();
+  const messages = t.contact.messages;
   const hold = 50;
-  const delay = 50; 
+  const delay = 50;
 
   const [state, dispatch] = useReducer(animationReducer, {
     idx: 0,
-    message: messages[0],
+    message: messages[0] || '',
     char: 0,
     isActive: true,
   });
 
+  useEffect(() => {
+    dispatch({ type: 'RESET', messages });
+  }, [language]);
+
   useInterval(
     () => {
-      dispatch({ type: 'TICK', loopMessage, hold });
+      dispatch({ type: 'TICK', loopMessage, hold, messages });
     },
     state.isActive ? delay : null,
   );
@@ -133,9 +141,11 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
       <a
         href={
           validateText(state.message)
-            ? `mailto:${state.message}@gmail.com`
+            ? 'https://t.me/yarkinovd'
             : ''
         }
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <span>{state.message}</span>
       </a>

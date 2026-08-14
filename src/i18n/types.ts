@@ -44,6 +44,7 @@ export interface Translations {
   contact: {
     title: string;
     description: string;
+    messages: string[];
   };
   stats: {
     title: string;

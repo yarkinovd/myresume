@@ -55,9 +55,9 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
 # Menga yoqadi
 
 - Badiiy kitoblar o‘qish
-- Futbol o‘ynash
-- Armwrestling (qo‘l jangi)
-- Kompyuter o‘yinlari
+- Futbol o‘ynash (Futbolsiz hayot yo'qdek go'yo)
+- Armwrestling
+- Mobile Legends
 
 # Qiziqarli faktlar
 
@@ -128,10 +128,10 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
         endDate: '2026-05-25',
         summary: `Keling, ochig‘ini gaplashamiz: bu men uchun 2 yillik quruq ish joyi bo‘lmagan. Bu — har safar cho‘ntak bo‘shab qolganda yoki pul kerak bo‘lganda soqqani qilish uchun ishlatadigan shaxsish 'apparatim' edi. Kimgadir tezda proyekt yoki funksiya kerakmi, zakazni tezda olardim, kodini chokini so'kib bitirardim, topshirib pulimni olib yuraverardim.`,
         highlights: [
-          "Yolg'iz bo'ri sifatida har xil mijozlar uchun noldan to production'gacha bo'lgan full-stack veb va mobil loyihalarni o'zim mustaqil topshirdim.",
-          "Budjet ustida talashish va mijoz talablarini aniqlashtirishdan boshlab, kod yozish va serverga yuklashgacha bo'lgan hamma narsani bir o'zim yopganman.",
-          "Crazy dedlaynlar ostida tezkor ishlash san'atini mukammal o'rgandim, chunki tez topshirish — tez to'lov degani edi.",
-          "Har kuni har xil texnologiyalar ichida yurdim, mijozning loyihasiga qaysi instrument kerak bo'lsa, bir zumda o'rganib moslashib ketaverdim.",
+          "Yolg'iz bo'ri sifatida har xil mijozlar uchun 0 dan to production'gacha bo'lgan full-stack veb va mobil loyihalar qilib yurdim",
+          "Soqqa ustida talashish va mijoz talablarini aniqlashtirishdan boshlab, kod yozish va serverga yuklashgacha bo'lgan hamma narsa",
+          "Crazy dedlaynlar ostida tezkor ishlash san'atini mukammal o'rgandim, chunki tez topshirish — tezroq soqqa olish degani edida",
+          "Har kuni har xil texnologiyalar ichida yurdim, mijozning loyihasiga qaysi instrument kerak bo'lsa, tezda o'rganib moslashib ketaverdim.",
           "Mijozlarni doim xursand qildim va 100% holatda pullarni o'z vaqtida undirish bo'yicha shaxsiy rekordimni saqlab qoldim.",
         ],
       },
@@ -143,11 +143,11 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
         endDate: '2024-05-01',
         summary: `Bosh Frontend mentor bo'lish men uchun juda qiziqarli va katta tajriba bo'ldi. 200 dan ortiq talabani IT olamiga shaxsan yetaklab kirdim. Ularga faqat React'ni o'rgatmadim, balki JavaScript 'gandurashni' boshlaganda tashlab ketmasliklari uchun ruhan ham qo'llab-quvvatladim.`,
         highlights: [
-          "200 dan ortiq talabadan iborat bir nechta guruhlarni boshqardim — cheksiz savollar, kod revyular va IT'da omon qolish (survival) darslari bilan o'tdi.",
-          "Hech qanday quruq va keraksiz 'suvlar'siz, faqat amaliyotga asoslangan HTML/CSS, JS, React va loyiha arxitekturasi darsliklarini tayyorladim.",
-          'Talabalarni birinchi kundan boshlab real, boshida rosa sinadigan proyektlar yozishga majburlardim, toki ular haqiqiy dasturchi hayotini his qilsin.',
+          "200 dan ortiq IT ga qiziqadigan aytishnikchalarni o'qitdim — cheksiz savollar, kod revyular va IT dunyosida omon qolish (survival) darslari bilan o'tdi.",
+          "Hech qanday quruq va keraksiz 'metodchalar'siz, faqat amaliyotga asoslangan HTML/CSS, JS, React va loyiha arxitekturasi darsliklarini tayyorladim.",
+          "Talabalarni birinchi kundan boshlab real, boshida rosa sindiradigan proyektlar yozishga majburlardim (azobladim desa ham bo'ladi), toki ular haqiqiy dasturchi hayotini his qilsin.",
           "Intervyularda qovurilib qolmasliklari uchun ularga Git, zamonaviy instrumentlar va proyektni serverga yuklash (deployment) sirlarini o'rgatdim.",
-          "Kod buzilib, talabalarning 'depressiyasi' boshlanganda 1-on-1 yordam berib, bitirish ko'rsatkichini ancha yuqoriga ko'tardim.",
+          "Kod buzilib, talabalarning 'depressiyasi' boshlanganda yakkama-yakka yordam berib, dasturlash hayotiga bo'lgan motivatsiyasini oshirdim.",
         ],
       },
       {
@@ -185,7 +185,23 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
   contact: {
     title: 'Aloqa',
     description:
-      "Bog'lanishdan tortinmang. Menga elektron pochta orqali murojaat qilishingiz mumkin:",
+      "Bog'lanishdan tortinmang. Menga Telegram orqali murojaat qilishingiz mumkin:",
+    messages: [
+      '@yarkinovd',
+      'salom',
+      'assalomu_alaykum',
+      'menga xohlagan mavzuda yozishingiz mumkin! Rostan',
+      "to'g'rirog'i, hamma narsada emas. Lekin ko'p narsada",
+      'masalan bunday',
+      'yoki bunday',
+      'lekin bunday emas :(  ',
+      'shuningdek aniq mavzularda ham yozishingiz mumkin, masalan',
+      'shunchaki salomlashish',
+      'biz bilan ishlang',
+      'yordam kerak',
+      'yoki saytingiz menga juda yoqdi',
+      'rahmat',
+    ],
   },
   stats: {
     title: 'Statistika',

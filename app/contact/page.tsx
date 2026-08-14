@@ -5,7 +5,7 @@ import ContactContent from '../components/ContactContent';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Contact Doniyorbek Yarkinov via email @ doniyorbekyarkinovv@gmail.com',
+  description: 'Contact Doniyorbek Yarkinov on Telegram @yarkinovd',
 };
 
 export default function ContactPage() {
