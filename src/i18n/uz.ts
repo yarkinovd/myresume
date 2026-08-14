@@ -27,54 +27,22 @@ const uz: Translations = {
   about: {
     title: 'Men haqimda',
     wordCount: (n) => `taxminan ${n} so'z`,
-    content: `# Kirish
-
-PDP Universiteti "Dasturiy injiniring" yo'nalishi talabasi (2024-yilda 100% grant sohibi) va Angliyaning xalqaro BTEC dasturi talabasi. Faoliyatimni Frontend (React, TypeScript, Next.js) texnologiyalaridan boshlab, hozirda asosiy e'tiborimni Flutter va mobil dasturlashga qaratganman. Kuchli yetakchilik va pedagogik tajribaga egaman: 2023–2024-yillarda IT markazda Bosh Frontend o'qituvchisi (Lead Instructor) sifatida 200 dan ortiq talabalarni o'qitganman. Foydalanuvchilarga qulay va yuqori unumdorlikka ega dasturiy yechimlarni yaratish uchun mobil va fullstack dasturchi sifatida doimiy o'sib bormoqdaman.
+    content: `
 
 Har bir loyiha — yangi bosqich. Agar hamkorlik qilmoqchi bo'lsangiz yoki shunchaki bir finjon kofe ustida suhbatlashmoqchi bo'lsangiz, murojaat qilishdan tortinmang!
 
-# Bir oz qiziqarli ma'lumotlar
+# Ba'zi ma'lumotlar
 
 - Frontend yo'nalishinini o'rganishni boshladim-u, veb-saytlar va dizaynlar, ranglar bilan yaxshi kelisha olishimni bildim.
-- 2023-yil yanvardan maygacha React.js, TypeScript va Next.js larni o'rgandim, hatto tushlarimda ham JSX kod yozib chiqardim.
 - Videomontaj ishlariga qiziqar edim lekin hech eplay olmasdim, SMM va Mobilografiyani ham o'rganib oldim. Bu ijodiy jarayon mening sevimli mashg'ulotimga aylanib ketdi, chunki bir paytlar video montaj ishlari men uchun ushalmas orzudek ko'rinar edida.
 - Bir to'liq yil davomida (2023-yil maydan 2024-yil maygacha) IT markazda Bosh Frontend mentor va dasturchi bo'lib ishladim. 200 dan ortiq talabalarni dasturlash olamiga yetakladim — bu haligacha mening eng faxrlanadigan va yuragimga yaqin yutuqlarimdan biri!
 - O'sha bir yil davomida do'konlar, o'quv markazlari, kiyim do'konlari va restoranlar uchun SMM hamda mobilograf bo'lib ham yugurib yurdim. O'ta qiziqarli va har qanday psixologiya kitobidan ham ko'ra insonlarni yaxshiroq tushunishni o'rgatgan davr bo'ldi!
-- Hayotimdagi o'z ishlab topgan pulimga birinchi katta texnologik "kubogim" — iPhone 14 Pro Max sotib oldim (09.10.2023). O'zimni xuddi dunyoni zabt etganga o'xshab his qilgandim!
-- Universitetga kirish umuman rejamda yo'q edi. O'zimcha: "Faqat kod yozaman, ishlayman va zo'r loyihalar quraman!" deb yurgandim, oilam ham bu qarorimni qo'llagan edi. Lekin... 2024-yil aprelida, 11-sinf tugay deb turganda kutilmaganda "syurpriz"! Oilam birdaniga universitetga kirishim shartligini e'lon qildi. Imtihongacha atigi 2 oy qolgan, men esa shokdaman: "2 oyda tayyorlanib universitetga kirib bo'ladimi?!" Lekin bahslashib o'tirmay, gazini bosdim.
-- 2 oy davomida kuniga 15 soatlab tindirmay o'rgandim: 1 oy ingliz tili, 1 oy matematika.
-- IELTS topshirib, 6.0 ball oldim. Nima deb o'ylaysiz, atigi 1 oyda IELTS da 6 natija yaxshimi? o'ta go'zal a? (07.05.2024 – 07.06.2024).
-- Bir oy o'tib, matematikani ham o'rgandim (14.06.2024 – 14.07.2024).
-- DTM kirish imtihonida 127.3 ball yig'dim.
-- Keyin darhol o'zimni mukofotlash uchun iPhone 15 Pro sotib oldim (01.08.2024). O'zimni tez-tez siylamayman — lekin siylasam, albatta Apple mahsuloti bilan! Apple legenda
-- 2024-yil 30-avgust kuni PDP Universitetiga 100% grant yutib oldim va rasman 1-kurs talabasiga aylandim! Yo'nalishim: Flutterga ixtisoslashgan Dasturiy Injiniring.
-- Va albatta... bu bilan to'xtab qolmadim. Nihoyat MacBook Pro 2021 (M1 Pro, 16GB RAM / 512GB SSD, 14-dyuym) ni ham qo'lga kiritdim (20.10.2024). Real hayotda xuddi yangi darajaga (level up) ko'tarilgandek bo'ldim.
+- IELTS topshirib, 6.0 ball oldim. Nima deb o'ylaysiz, atigi 1 oyda IELTS da 6 natija yaxshimi? (07.05.2024 – 07.06.2024).
 
 Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'rishganimizda so'rang 😉
 
-# Menga yoqadi
 
-- Badiiy kitoblar o‘qish
-- Futbol o‘ynash (Futbolsiz hayot yo'qdek go'yo)
-- Armwrestling
-- Mobile Legends
-
-# Qiziqarli faktlar
-
-- Bir vaqtning o‘zida 3 ta dasturlash tilini o‘rganishga harakat qilganman. Hozir ularning hammasi miyamda kim birinchi bo‘lish uchun o‘zaro urushib yotibdi.
-- Qurilmalarimga xuddi ular meni eshitayotgandek gapiraman. Noutbugim esa haligacha meni pisand qilmay kelmoqda.
-- Har tongga haddan tashqari ko‘p budilnik qo‘yaman — balki ulardan biri qachondir meni chindan uyg‘otar.
-- Oshxonani "jinoyat maydoni"ga aylantirmasdan turib ovqat pishirolmayman, lekin baribir urinib ko‘raman, chunki hayotda optimizm muhim.
-- Menga umuman kerak bo‘lmagan gadjetlarni sotib olib, keyin ularsiz yashab bo‘lmasligini isbotlashga urinishni yaxshi ko‘raman.
-- Ushbu sahifani qo‘shganimning sababi — ko‘pchilik saytimni shunchaki rezumedan iborat ekanligidan shikoyat qildi.
-
-# Men orzu qilaman
-
-- Odamlarga motivatsiya berish va ulardan ilhomlanish.
-- Har bir insonga chin dildan mehr va hurmat bilan munosabatda bo‘lish.
-- Doimo qiziquvchan bo‘lib qolish.
-- To‘xtovsiz o‘z ustimda ishlash.
-- Ushbu faylning eski versiyalarini ko‘rish uchun GitHub'dagi commit'lar tarixini titmasligingizni :)
+Ushbu sahifani qo‘shganimning sababi — ko‘pchilik saytimni shunchaki rezumedan iborat ekanligidan shikoyat qildi.
 
 `,
   },
@@ -109,13 +77,12 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
         position: 'Software Engineer (Mobile & Fullstack)',
         url: 'https://realsoft.uz',
         startDate: '2026-05-27',
-        summary: `Kompaniyaga Flutter'chi bo‘lib kirgandim, lekin tezkor tempda ishlaydigan joyda qoida bitta: yo moslashasan, yo ortda qolasan. Muammolarni yechishni yaxshi ko‘rganim uchun tezda Fullstack'ka o‘tib ketdim — kod mijozda bo‘ladimi yoki backend'ning eng chuqur joyidami, farqi yo‘q edi. Respublika miqyosidagi yirik platformalarni ko‘tarish meni har qanday pozitsiyada bemalol ishlay oladigan dasturchi qilib qo'ydi.`,
+        summary: "",
         highlights: [
-          "Raqamli Bozor (raqamli-bozor.uz): O‘zbekistondagi barcha dehqon bozorlari va savdo komplekslarini davlat monitoringi uchun raqamlashtiradigan ulkan platforma. Bu yerda fullstack kod yozib, hamma do'kon va rastalarni to'liq tizimga ulab, raqamlashtirib chiqdim.",
-          "EasyTrip: O‘zbekistonga kelgan turistlar uchun haqiqiy xaloskor ilova. Ularning eng katta og‘riqli nuqtalarini davolaydi: begona yurtda narxlarni bilmaslik, adashib qolish va joy band qilish (booking) muammosini hal qiladi. Men loyihada foydalanuvchilar ko'radigan qismlarini va real vaqtdagi bron qilish oqimini maromiga yetkazib berdim.",
-          "Mahalla Bankiri: Qarzdorlikni undiruvchi xodimlar uchun maxsus mobil ilova va loyiha ham nomi kabi ancha jiddiy bo'ldi! Background GPS monitoring va qat’iy geofencing (geodevor) tizimini qurdik. Agar sizga 'Do‘stlik MFY' berilgan bo‘lsa, o'sha hududdan chiqolmaysiz, ilova srazu GPS orqali buni sezadi, ish vaqtini o‘lchaydi va nazorat qiladi.",
-          "Uz Agro Sug'urta (agros.uz): Sug'urta kompaniyasini raqamlashtiradigan yirik ekotizim. Bu yerda mobil ilovadagi bor bo‘lgan hamma eski xatoliklarni (bug'larni) ildizi bilan tozalab chiqdim va tizimni kengaytirish uchun mutlaqo yangi funksiyalar (feature'lar) qo‘shdim.",
-          'Texnik Xameleon: Jamoa yoki biznesga aynan o‘sha soniyada nima juda zarur bo‘lsa, Flutter, frontend va backend o‘rtasida o‘sha zaxoti sakrab o‘ta olaman. Maksimal moslashuvchanlik.',
+          "raqamli-bozor.uz: O‘zbekistondagi barcha dehqon bozorlari va savdo komplekslarini davlat monitoringi uchun raqamlashtiradigan ulkan platforma.",
+          "EasyTrip: O‘zbekistonga kelgan turistlar uchun haqiqiy yordamchi ilova. Begona yurtda narxlarni bilmaslik, adashib qolish va joy band qilish (booking) muammosini hal qiladi.",
+          "Mahalla Bankiri: Qarzdorlikni undiruvchi xodimlar uchun maxsus mobil ilova. Background GPS monitoring va qat’iy geofencing (geodevor) tizimli.",
+          "agros.uz: Sug'urta kompaniyasini raqamlashtiradigan yirik ekotizim.",
         ],
       },
       {
@@ -124,55 +91,48 @@ Internetga chiqarishga qo'rqadigan boshqa "sarguzashtlarim"ni esa yuzma-yuz ko'r
         url: '',
         startDate: '2024-07-20',
         endDate: '2026-05-25',
-        summary: `Keling, ochig‘ini gaplashamiz: Bu 2 yil ichida tinmay ishladim deya olmayman, Bu — har safar cho‘ntak bo‘shab qolganda yoki pul kerak bo‘lganda soqqani qilish uchun ishlaganman. Kimgadir tezda proyekt yoki funksiya kerakmi, zakazni tezda olardim, kodini chokini so'kib bitirardim, topshirib pulimni olib yuraverardim.`,
+        summary: ``,
         highlights: [
+          "Bu 2 yil ichida tinmay ishladim deya olmayman, shunchaki har safar cho‘ntak bo‘shab qolganda yoki pul kerak bo‘lganda soqqani qilish uchun ishlaganman. Kimgadir tezda proyekt yoki funksiya kerakmi, zakazni tezda olardim, kodini chokini so'kib bitirardim, topshirib pulimni olib yuraverardim.",
           "Har xil mijozlar uchun 0 dan to production'gacha bo'lgan full-stack veb va mobil loyihalar qilib yurdim",
           "Soqqa ustida talashish va mijoz talablarini aniqlashtirishdan boshlab, kod yozish va serverga yuklashgacha bo'lgan hamma narsa",
-          "Crazy dedlaynlar ostida tezkor ishlash san'atini mukammal o'rgandim, chunki tez topshirish — tezroq soqqa olish degani",
-          "Har kuni har xil texnologiyalar ichida yurdim, mijozning loyihasiga qaysi instrument kerak bo'lsa, tezda o'rganib moslashdim.",
         ],
       },
       {
         name: 'Meta IT School',
         position: 'Frontend mentor',
-        url: 'https://instagram.com',
+        url: 'https://instagram.com/metaitschool',
         startDate: '2023-05-01',
         endDate: '2024-05-01',
-        summary: `Bosh Frontend mentor bo'lish men uchun juda qiziqarli va katta tajriba bo'ldi. 200 dan ortiq talabani IT olamiga shaxsan yetaklab kirdim. Ularga faqat React'ni o'rgatmadim, balki JavaScriptga kelganda qiyinlashayotganda tashlab ketmasliklari uchun ruhan ham qo'llab-quvvatladim.`,
+        summary: ``,
         highlights: [
           "200 dan ortiq IT ga qiziqadigan aytishniklarni o'qitdim — cheksiz savollar, kod revyular va IT dunyosida omon qolish (survival) darslari bilan o'tdi.",
           "Hech qanday quruq va keraksiz 'metodlar'siz, faqat amaliyotga asoslangan HTML/CSS, JS, React va loyiha arxitekturasi darsliklarini tayyorladim.",
-          "Talabalarni birinchi kundan boshlab real, boshida rosa sindiradigan proyektlar yozishga majburlardim (azobladim desa ham bo'ladi), toki ular haqiqiy dasturchi hayotini his qilsin.",
           "Intervyularda qovurilib qolmasliklari uchun ularga Git, zamonaviy instrumentlar va proyektni serverga yuklash (deployment) sirlarini o'rgatdim.",
-          "Kod buzilib, talabalarning 'depressiyasi' boshlanganda yakkama-yakka yordam berib, dasturlash hayotiga bo'lgan motivatsiyasini oshirdim.",
         ],
       },
       {
         name: 'Meta IT School',
         position: 'Frontend dasturchi',
-        url: 'https://instagram.com',
+        url: 'https://instagram.com/metaitschool',
         startDate: '2023-05-01',
         endDate: '2024-05-01',
-        summary: `Mentorlik qilish bilan bir qatorda, o'quv markazining o'zini haqiqiy ichki ekotizimini ham ko'targanman. Talabalar paneli (dashboard) va o'quv markazi ichki tizimlari muammosiz ishlashi uchun React'da kod yozdim.`,
+        summary: ``,
         highlights: [
           'React va zamonaviy frontend andozalaridan foydalanib, moslashuvchan panellar va ichki vositalarni ishlab chiqdim.',
           "Raqamli ta'lim tajribasini yaxshilash uchun jamoa va rahbariyat bilan hamkorlik qildim.",
-          'UI unumdorligini optimallashtirdim va kod chiroyli masshtablanishi uchun qayta foydalaniladigan komponentlarni joriy etdim.',
           "API larni integratsiya qildim va talabalar taraqqiyotini kuzatish hamda kurslarni boshqarishni qo'llab-quvvatlaydigan interfeyslarni qurdim.",
-          'Sifatli va foydalanuvchi uchun qulay interfeyslarni taqdim etish uchun dizayn jamoalari bilan yaqindan ishladim.',
         ],
       },
       {
         name: 'Meta IT School',
         position: 'SMM manager & mobilographer',
-        url: 'https://instagram.com',
+        url: 'https://instagram.com/metaitschool',
         startDate: '2023-05-01',
         endDate: '2024-05-01',
-        summary: `Bu yerda umuman boshqa 'shapka'ni kiydim. O'quv markazining ijtimoiy tarmoqlardagi faolligini boshqardim va odamlarni jalb qiladigan, brend tarixini so'zlab beruvchi yuqori sifatli foto va video (reels) kontentlar ishlab chiqdim.`,
+        summary: ``,
         highlights: [
           "Talabalar loyihalari va o'quv markazi tadbirlarini namoyish qilish uchun reklama videolari, foto va reels kontentlarini yaratdim.",
-          'Instagram va boshqa platformalarda ijtimoiy tarmoq strategiyasini boshqardim, natijada qamrov va faollik darajasini oshirdim.',
-          "Ta'limiy va marketing xarakteridagi kontentlarni ishlab chiqish uchun o'qituvchilar va ma'muriyat bilan yaqindan hamkorlik qildim.",
           'Brend identifikatsiyasini mustahkamlaydigan va auditoriya bilan aloqani yaxshilaydigan vizual konsepsiyalarni loyihaladim.',
           "Tasvirga olish, montaj qilish, rang berish va tayyor mahsulotni tarmoqqa yuklashgacha bo'lgan to'liq ishlab chiqarish (production) jarayonini bajardim.",
         ],

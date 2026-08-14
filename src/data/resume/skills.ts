@@ -12,11 +12,6 @@ export interface Category {
 const skills: Skill[] = [
   // Languages
   {
-    title: 'Python',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
     title: 'Project Management',
     competency: 2,
     category: ['Skills'],
